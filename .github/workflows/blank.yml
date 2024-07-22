@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build
-    runs-on: self-hosted
+  build:
+    runs-on: server01
     steps:
       - uses: actions/checkout@v4
 
